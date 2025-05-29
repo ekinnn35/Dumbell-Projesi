@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Dumbell Tıklama 🏋️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Dumbell Tıklama Deneyi 🏋️</h1>
+
+    <div class="dumbells">
+      <div class="dumbell">
+        <img src="images/dumbell.png" alt="10kg" onclick="playSound(10)">
+        <p>10 kg</p>
+      </div>
+      <div class="dumbell">
+        <img src="images/dumbell.png" alt="30kg" onclick="playSound(30)">
+        <p>30 kg</p>
+      </div>
+      <div class="dumbell">
+        <img src="images/dumbell.png" alt="50kg" onclick="playSound(50)">
+        <p>50 kg</p>
+      </div>
+      <div class="dumbell">
+        <img src="images/dumbell.png" alt="100kg" onclick="playSound(100)">
+        <p>100 kg</p>
+      </div>
+      <div class="dumbell">
+        <img src="images/dumbell.png" alt="200kg" onclick="playSound(200)">
+        <p>200 kg</p>
+      </div>
+    </div>
+
+    <div class="score-area">
+      🧮 Toplam Skorun: <span id="score">0</span> puan
+    </div>
+  </div>
+
+  <footer>
+    💪 Ekin Öztürk | Dumbell Deneyi © 2025
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
