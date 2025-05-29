@@ -1,25 +1,33 @@
-# 🕒 JavaScript Saat ve Karşılama Uygulaması
+# 🏋️ Dumbell Ses Projesi
 
-Bu basit projede, **JavaScript kullanarak canlı saat**, **gün bilgisi** ve **kullanıcıya özel bir karşılama mesajı** oluşturulmuştur. HTML ve CSS ile desteklenen bu uygulama, kullanıcı dostu bir arayüz sunar.
+Bu interaktif projede, kullanıcı farklı ağırlıklardaki dumbell görsellerine tıklayarak **farklı sesler** duyar ve aynı zamanda **puan toplar**. Proje, JavaScript ile ses oynatma, DOM manipülasyonu ve görsel etkileşimi öğretmeyi amaçlayan eğlenceli bir çalışmadır.
 
-## 🔍 Özellikler
+## 🔥 Özellikler
 
-- Kullanıcıdan ad bilgisini alır (prompt ile).
-- Canlı saat ve gün bilgisi her saniye güncellenerek gösterilir.
-- Kullanıcıya özel karşılama mesajı ekranda görünür.
-- Temiz ve sade tasarım.
-- Mobil uyumlu yapıya sahiptir (responsive).
+- **Her dumbell için farklı ses efekti** (CapCut AI ile oluşturulmuş)
+- **Tıklanan ağırlık kadar puan biriktirme**
+- Spor salonu havasında tasarlanmış sade ve koyu temalı arayüz
+- Responsive yapı (mobilde de çalışır)
+
+## 🧠 Kullanım
+
+1. 10, 30, 50, 100 ve 200 kg'lık dumbell görsellerine tıklanabilir.
+2. Her tıklamada:
+   - Ağırlığa özel ses efekti çalar.
+   - Ağırlık kadar puan birikir ve ekranda gösterilir.
 
 ## 🛠 Kullanılan Teknolojiler
 
 - **HTML5**
 - **CSS3**
 - **Vanilla JavaScript**
+- **CapCut AI** (ses üretimi için)
 
-## 🚀 Kurulum
+## 💾 Kurulum
 
-Projeyi yerel olarak çalıştırmak için:
+Projeyi bilgisayarında çalıştırmak için:
 
-1. Bu projeyi klonlayın veya ZIP olarak indirin:
+1. Bu repoyu klonla:
    ```bash
-   git clone https://github.com/ekinnn35/Javascript-Saat-ve-Karsilama.git
+   git clone https://github.com/ekinnn35/Dumbell-Projesi.git
+   cd Dumbell-Projesi
